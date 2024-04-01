@@ -1,0 +1,36 @@
+.note-container{
+    background-color: rgb(250, 248, 244);
+    padding: 20px;
+    box-shadow: 3px 3px 20px 2px black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.textarea{
+    width: 90%;
+    height: 40%;
+}
+
+
+button{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(155, 155, 155);
+}
+
+.delete-button{
+    background-color: red;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    transition: background-color 0.5s ease;
+}

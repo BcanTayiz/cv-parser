@@ -1,0 +1,14 @@
+/* Layout container */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 30vh; /* Adjust as needed */
+  }
+  
+  /* Content container */
+  .content-container {
+    flex: 1; /* Allow the content container to grow to fill the remaining space */
+    overflow-y: auto; /* Add vertical scroll if content exceeds viewport */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
